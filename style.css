@@ -23,9 +23,10 @@ a{
 
 .home {
     display: flex;
+    width: 100%;
     justify-content: space-around;
     background-color:#00a61b;
-    
+    position: fixed;
     height: 40px;
 }
 .home img {
@@ -161,6 +162,9 @@ footer img{
     #contatos img{
         width: 19%;
     }
+    .foto img{
+        height: 300px;
+    }
     button{
         width: 10%;
     }
@@ -211,15 +215,22 @@ footer img{
     #contatos img{
         width: 0%;
     }
+    .foto img{
+        height: 200px;
+        margin-top: 40px;
+    }
     #contatos{
-        font-size: 14px;
+        font-size:17px;
+    }
+    footer{
+        width: 100%;
     }
     button{
         width: 30%;
     }
     input{
         height: 20px;
-        width: 35%;
+        width: 50%;
     }
     .home{
         font-size: 11px;
@@ -229,6 +240,10 @@ footer img{
     #contatos img{
         width: 10%;
     }
+    .foto img {
+        height: 400px;
+    }
+
     #contatos{
         font-size: 14px;
     }
@@ -240,7 +255,7 @@ footer img{
         width: 15%;
     }
     .home{
-        font-size: 16px;
+        font-size:20px;
     }
 }
 @media (min-width:1000px){
